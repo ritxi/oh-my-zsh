@@ -52,6 +52,9 @@ plugins=(git ruby rails3)
 
 # User configuration
 
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin
+export EDITOR='subl -w'
+
 [[ -s `brew --prefix`/etc/bash_completion.d/git-completion.bash ]] && source `brew --prefix`/etc/bash_completion.d/git-completion.bash
 
 export PATH=./bin:$HOME/bin:/usr/local/bin:$PATH
