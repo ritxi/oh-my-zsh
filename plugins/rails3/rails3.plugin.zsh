@@ -30,3 +30,5 @@ alias rdr='rake db:rollback'
 alias -g RET='RAILS_ENV=test'
 alias -g REP='RAILS_ENV=production'
 alias -g RED='RAILS_ENV=development'
+
+alias test_reset='RAILS_ENV=test rake db:reset'
