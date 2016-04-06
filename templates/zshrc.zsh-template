@@ -48,14 +48,13 @@ ZSH_THEME="knoopx"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ruby rails3)
+plugins=(ruby rails git sublime ssh-agent bundler rbenv)
 
 # User configuration
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin
-export EDITOR='subl -w'
+export EDITOR='st'
 
-[[ -s `brew --prefix`/etc/bash_completion.d/git-completion.bash ]] && source `brew --prefix`/etc/bash_completion.d/git-completion.bash
 
 export PATH=./bin:$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
